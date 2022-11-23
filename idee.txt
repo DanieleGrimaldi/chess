@@ -1,0 +1,7 @@
+IDEE:
+1) social network con immagini
+2) chat (tipo telegram etc.. con gruppi)
+3) gioco con i due cosi
+4) pacman
+5) labirinti con due giocatori
+6) roulette russa
