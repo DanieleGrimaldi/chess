@@ -1,4 +1,10 @@
-module org.openjfx {
+module chessclient {
     requires javafx.controls;
-    exports org.openjfx;
+    requires javafx.graphics;
+    requires MaterialFX;
+    requires javafx.fxml;
+
+    exports chessclient;
+    opens chessclient to javafx.graphics, javafx.fxml;
+
 }
