@@ -1,20 +1,20 @@
 import socket
 import comunicazione
 
-comunicazione.test()
+
 print ('avvio server')
 HOST = '127.0.0.1' 
-PORT = 60001
+PORT = 8080
 s = socket.socket() #senza parametri protocollo tcp-ip
 s.bind((HOST, PORT))
-s.listen()
-conn, addr = s.accept()
-print('Connesso ad IP: ', addr)
-while True:
-    dati = conn.recv(1024)
-    if not dati:
-        break
-    conn.sendall(b'restituisco dati ricevuti:'+dati)
-    print('dati ricevuti: ',dati)
+flag=true
+
+while flag:
+    s.listen()
+    conn, addr = s.accept()
+    with conn:
+        x = threading.Thread(target=comunicazione.thread_comunicazione, args=(conn,))
+        x.start()
+        
 s.close()    
 print('Fine programma')
