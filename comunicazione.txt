@@ -1,0 +1,1 @@
+utiliziamo questo file per scivere i pacchetti che possimo inviare tra client e server
