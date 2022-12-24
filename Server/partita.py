@@ -10,5 +10,5 @@ class game:
     def mossa(turno,partenza,arrivo):
         valida=True
         return valida
-    
-    
+     
+     
