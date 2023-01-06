@@ -1,1 +1,21 @@
 utiliziamo questo file per scivere i pacchetti che possimo inviare tra client e server
+
+login;nomeUtente;psw;
+login corretta;
+
+per registrarsi invece (dopo la registrazione se avvenuta correttamente bisogna fare la login)
+registrazione;nomeUtente;psw;
+registrazione corretta;
+
+
+creazione partita
+crea;
+
+unisciti ad una partita
+unisciti;idPartita;
+
+conferma dell'inizio della partita
+partita iniziata;
+
+per far capire a chi tocca
+tocca a te;
