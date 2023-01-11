@@ -38,7 +38,6 @@ public class login extends Thread{
         
         while(!loggato){
 
-            nuoviMessaggi notifica;
             String str = in.readLine();//non so se toglie i nulli 
 
             if(str.toUpperCase().startsWith("LOGIN")){//login;nomeUtente;psw;

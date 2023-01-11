@@ -1,21 +1,41 @@
 utiliziamo questo file per scivere i pacchetti che possimo inviare tra client e server
 
-login;nomeUtente;psw;
-login corretta;
-
-per registrarsi invece (dopo la registrazione se avvenuta correttamente bisogna fare la login)
-registrazione;nomeUtente;psw;
-registrazione corretta;
 
 
-creazione partita
-crea;
+PER LA LOGIN 
 
-unisciti ad una partita
-unisciti;idPartita;
+    login;nomeUtente;psw;
+    login corretta;
 
-conferma dell'inizio della partita
-partita iniziata;
+    per registrarsi invece (dopo la registrazione se avvenuta correttamente bisogna fare la login)
+    registrazione;nomeUtente;psw;
+    registrazione corretta;
 
-per far capire a chi tocca
-tocca a te;
+
+
+COSA PUO FARE UN UTENTE 
+
+    creazione partita
+    crea;
+
+    unisciti ad una partita
+    unisciti;idPartita;
+
+    per disconnetterti
+    disconnetti;
+
+
+
+DURANTE LA PARTITA
+
+    conferma dell'inizio della partita
+    partita iniziata;
+
+    per far capire a chi tocca
+    tocca a te;
+
+    durante la partita mando tutti i messaggi da 1 a 2 anche fine o qualsiasi altra cosa in più il turno passa all'altro dopo un messaggio
+
+    per finire la partita manda 
+    fine;
+

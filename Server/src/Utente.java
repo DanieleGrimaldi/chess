@@ -35,6 +35,19 @@ public class utente extends Thread{
 
     @Override
     public void run(){
-        
+        Boolean connesso = true;
+        while(connesso){
+            String str = in.readLine();//non so se toglie i nulli 
+
+            if(str.toUpperCase().startsWith("CREA")){
+            }
+            if(str.toUpperCase().startsWith("UNISCITI")){
+                String campi[] = str.split(";");
+            }
+            if(str.toUpperCase().startsWith("DISCONNETTI")){
+                connesso = false;
+            }
+
+        }
     }
 }

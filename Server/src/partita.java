@@ -69,9 +69,23 @@ public class partita extends thread{
             out1.println("partita iniziata;");
             out2.println("partita iniziata;");
 
-            while(turno==1){
+            if(turno==1){
                 out1.println("tocca a te;");
-                
+                String str = in1.readLine();
+                if(str.toUpperCase().startsWith("FINE")){
+                    attiva = false;
+                }
+                out2.println(str);
+                turno=2;
+            }
+            if(turno==2){
+                out2.println("tocca a te;");
+                String str = in1.readLine();
+                if(str.toUpperCase().startsWith("FINE")){
+                    attiva = false;
+                }
+                out1.println(str);
+                turno=1;
             }
         }
     }
