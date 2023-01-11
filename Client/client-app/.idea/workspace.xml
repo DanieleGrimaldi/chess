@@ -5,111 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec38c6d-018e-4317-8504-377495401860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client-App.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/SigninWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6-bin.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/NOTICE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/m2.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/mvn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/mvn.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/mvnDebug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/mvnDebug.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/mvnyjp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/sample/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/sample/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/sample/src/main/java/org/openjfx/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/bin/sample/src/main/java/org/openjfx/SystemInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/boot/plexus-classworlds.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/conf/logging/simplelogger.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/conf/settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/conf/toolchains.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/commons-cli-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/commons-cli.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/commons-io.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/commons-lang3-3.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/commons-lang3.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/ext/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/guava-25.1-android.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/guava.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/guice-4.2.2-no_aop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/guice.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/jansi-2.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/jansi-native/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/jansi-native/Windows/x86/jansi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/jansi-native/Windows/x86_64/jansi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/jansi.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/javax.annotation-api.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/javax.inject.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/jcl-over-slf4j-1.7.36.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/jcl-over-slf4j.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-artifact-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-builder-support-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-compat-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-core-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-embedder-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-model-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-model-builder-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-plugin-api-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-repository-metadata-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-resolver-api-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-resolver-connector-basic-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-resolver-impl-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-resolver-provider-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-resolver-spi-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-resolver-transport-wagon-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-resolver-util-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-settings-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-settings-builder-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-shared-utils-3.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/maven-slf4j-provider-3.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/org.eclipse.sisu.inject-0.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/org.eclipse.sisu.inject.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/org.eclipse.sisu.plexus-0.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/org.eclipse.sisu.plexus.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-cipher-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-cipher.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-component-annotations-2.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-component-annotations.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-interpolation-1.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-interpolation.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-sec-dispatcher-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-sec-dispatcher.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-utils-3.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/plexus-utils.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/slf4j-api-1.7.36.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/slf4j-api.license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/wagon-file-3.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/wagon-http-3.5.1-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-maven-3.8.6/lib/wagon-provider-api-3.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client-App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client-App.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chessclient/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chessclient/gui/SigninWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/SigninController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/SigninWindow.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chessclient/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chessclient/gui/SigninWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chess/client/app/clientapp/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chess/client/app/clientapp/signin-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chess/clientapp/signin-window.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/src/main/java/org/openjfx/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/src/main/java/org/openjfx/SystemInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/target/classes/org/openjfx/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app1/target/classes/org/openjfx/SystemInfo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -135,24 +46,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="chess.clientapp" />
       <recent name="chess.client.app.clientapp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.chess.clientapp.ClientApp">
     <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chess.client.app.clientapp.ClientApp" />
       <module name="client-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chess.client.app.clientapp.*" />
+          <option name="PATTERN" value="chess.client.app.clientapp.auth.signin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chess.clientapp.ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chess.clientapp.ClientApp" />
+      <module name="client-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chess.clientapp.scene.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chess.clientapp.ClientApp" />
         <item itemvalue="Application.ClientApp" />
       </list>
     </recent_temporary>
@@ -187,5 +113,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowController.java</url>
+          <line>35</line>
+          <properties class="chess.clientapp.fx.WindowController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

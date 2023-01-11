@@ -1,4 +1,4 @@
-module chess.client.app.clientapp {
+module chess.clientapp {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -8,6 +8,10 @@ module chess.client.app.clientapp {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens chess.client.app.clientapp to javafx.fxml;
-    exports chess.client.app.clientapp;
+    opens chess.clientapp to javafx.fxml, MaterialFX;
+    exports chess.clientapp;
+    exports chess.clientapp.fx;
+    opens chess.clientapp.fx to MaterialFX, javafx.fxml;
+    exports chess.clientapp.scene;
+    opens chess.clientapp.scene to MaterialFX, javafx.fxml;
 }

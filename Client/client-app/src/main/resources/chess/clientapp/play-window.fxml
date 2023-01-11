@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="333.0" prefWidth="368.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chess.clientapp.fx.WindowController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label fx:id="title_label" text="finestra di gioco" textFill="#941492">
+      <font>
+         <Font name="Comfortaa Regular" size="34.0" />
+      </font>
+   </Label>
+   <Label onMouseClicked="#onSignupLabelClick" text="Log out" textFill="BLUE" underline="true">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+   </Label>
+</VBox>

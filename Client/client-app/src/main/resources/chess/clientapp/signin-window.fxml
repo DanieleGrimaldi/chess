@@ -9,26 +9,26 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="333.0" prefWidth="368.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chess.client.app.clientapp.SigninController">
+<VBox alignment="CENTER" prefHeight="333.0" prefWidth="368.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chess.clientapp.fx.WindowController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <Label text="Chess" textFill="#941492">
+   <Label fx:id="title_label" text="Chess" textFill="#941492">
       <font>
          <Font name="Comfortaa Regular" size="34.0" />
       </font>
    </Label>
-   <MFXTextField floatingText="Username" prefHeight="8.0" prefWidth="328.0">
+   <MFXTextField fx:id="usernameField" floatingText="Username" prefHeight="8.0" prefWidth="328.0">
       <cursor>
          <Cursor fx:constant="TEXT" />
       </cursor>
    </MFXTextField>
-   <MFXPasswordField floatingText="Password" prefHeight="51.0" prefWidth="386.0">
+   <MFXPasswordField fx:id="passwordField" floatingText="Password" prefHeight="51.0" prefWidth="386.0">
       <cursor>
          <Cursor fx:constant="TEXT" />
       </cursor>
    </MFXPasswordField>
-   <MFXButton onMouseClicked="#onLoginButtonClick" text="Accedi">
+   <MFXButton fx:id="loginButton" onMouseClicked="#onLoginButtonClick" text="Accedi">
       <cursor>
          <Cursor fx:constant="HAND" />
       </cursor>
