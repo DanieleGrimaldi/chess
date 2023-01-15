@@ -9,10 +9,6 @@ import java.io.IOException;
 
 public class ScreenController {
 
-    private final FXMLLoader signinWindowLoader;
-    private final FXMLLoader signupWindowLoader;
-    private final FXMLLoader playWindowLoader;
-
     private Stage stage;
 
     private Scene signinScene;
@@ -27,9 +23,9 @@ public class ScreenController {
     }
 
     private ScreenController() {
-        this.signinWindowLoader = new FXMLLoader(ClientApp.class.getResource("signin-window.fxml"));
-        this.signupWindowLoader = new FXMLLoader(ClientApp.class.getResource("signup-window.fxml"));
-        this.playWindowLoader = new FXMLLoader(ClientApp.class.getResource("play-window.fxml"));
+        FXMLLoader signinWindowLoader = new FXMLLoader(ClientApp.class.getResource("signin-window.fxml"));
+        FXMLLoader signupWindowLoader = new FXMLLoader(ClientApp.class.getResource("signup-window.fxml"));
+        FXMLLoader playWindowLoader = new FXMLLoader(ClientApp.class.getResource("play-window.fxml"));
 
         try {
             this.signinScene = new Scene(signinWindowLoader.load(), 320, 340);
@@ -42,7 +38,7 @@ public class ScreenController {
 
     public void start(Stage stage) {
         this.stage = stage;
-        stage.setTitle("Chess: Log into your account");
+        stage.setTitle("Chess");
         changeScene(ScreenScene.SIGNIN);
         stage.show();
     }

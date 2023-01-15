@@ -13,7 +13,9 @@ public class AuthController {
 
     public boolean attemptLogin(String username, String password) {
         //send to server
-        return true;
+        if(password.equals("ciao")) {
+            return true;
+        } else return false;
     }
 
 }

@@ -7,6 +7,8 @@ import io.github.palexdev.materialfx.controls.MFXButton;
 import io.github.palexdev.materialfx.controls.MFXPasswordField;
 import io.github.palexdev.materialfx.controls.MFXTextField;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 
 public class WindowController {
@@ -25,11 +27,14 @@ public class WindowController {
 
     @FXML
     protected void onLoginButtonClick() {
-        String username = usernameField.getFloatingText();
-        String password = passwordField.getFloatingText();
+        String username = usernameField.getText();
+        String password = passwordField.getText();
 
         if(AuthController.get().attemptLogin(username, password)) {
             ScreenController.get().changeScene(ScreenScene.PLAY);
+        } else {
+            new Alert(Alert.AlertType.ERROR, "Le credenziali inserite non sono corrette.", ButtonType.CLOSE).show();
+
         }
     }
 

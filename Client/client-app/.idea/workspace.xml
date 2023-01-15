@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec38c6d-018e-4317-8504-377495401860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client-App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client-App.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/ClientApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/SigninController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/app/clientapp/SigninWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/scene/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/clientapp/scene/ScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chess/client/app/clientapp/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chess/client/app/clientapp/signin-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chess/clientapp/signin-window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/icon.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,25 +43,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="chess.clientapp" />
       <recent name="chess.client.app.clientapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.chess.clientapp.ClientApp">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chess.client.app.clientapp.ClientApp" />
       <module name="client-app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chess.client.app.clientapp.auth.signin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.querz.chess.Main" />
+      <module name="client-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.querz.chess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.chess.clientapp.ClientApp" />
         <item itemvalue="Application.ClientApp" />
       </list>
@@ -119,8 +131,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowController.java</url>
-          <line>35</line>
-          <properties class="chess.clientapp.fx.WindowController">
+          <line>40</line>
+          <properties class="chess.clientapp.fx.WindowController" method="onSignupLabelClick">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
