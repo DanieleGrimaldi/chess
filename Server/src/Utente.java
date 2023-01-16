@@ -40,9 +40,11 @@ public class utente extends Thread{
             String str = in.readLine();//non so se toglie i nulli 
 
             if(str.toUpperCase().startsWith("CREA")){
+                gestore.crea(socket);
             }
             if(str.toUpperCase().startsWith("UNISCITI")){
                 String campi[] = str.split(";");
+                gestore.aggingiti(Integer.parseInt(campi[1]),socket);
             }
             if(str.toUpperCase().startsWith("DISCONNETTI")){
                 connesso = false;

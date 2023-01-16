@@ -28,12 +28,20 @@ COSA PUO FARE UN UTENTE
 
 DURANTE LA PARTITA
 
-    conferma dell'inizio della partita
+    server:
+
+    il server manda conferma dell'inizio della partita
     partita iniziata;
 
-    per far capire a chi tocca
+    il server manda per far capire a chi tocca
     tocca a te;
 
+    se la partita finita devi però dirmelo tu
+    fine;
+
+
+    client:
+    
     durante la partita mando tutti i messaggi da 1 a 2 anche fine o qualsiasi altra cosa in più il turno passa all'altro dopo un messaggio
 
     per finire la partita manda 
