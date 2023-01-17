@@ -1,5 +1,4 @@
-module chess.clientapp {
-    uses net.querz.chess.ChessIO;
+module chess.client {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -12,11 +11,11 @@ module chess.clientapp {
     requires org.mongodb.bson;
     requires com.google.gson;
 
-    opens chess.clientapp to javafx.fxml, MaterialFX;
-    exports chess.clientapp;
-    exports chess.clientapp.fx;
-    opens chess.clientapp.fx to MaterialFX, javafx.fxml;
-    exports chess.clientapp.scene;
-    exports net.querz.chess;
-    opens chess.clientapp.scene to MaterialFX, javafx.fxml;
+    exports chess.client;
+    exports chess.client.fx;
+    opens chess.client.fx to MaterialFX, javafx.fxml;
+    exports chess.client.screen;
+    opens chess.client.screen to MaterialFX, javafx.fxml;
+    exports chess.client.game;
+    exports chess.client.connection;
 }
