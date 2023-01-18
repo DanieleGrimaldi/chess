@@ -7,11 +7,11 @@ public class main {
 
         try (ServerSocket s = new ServerSocket(PORT)) {
             System.out.println("Started: " + s);
-            gestorePartite getsore = new GestorePartite();
+            gestorePartite gestore = new gestorePartite();
             while(true){
                 System.out.println("aspetto connessione");
                 Socket socket = s.accept();
-                login log = new login(socket,getsore);
+                login log = new login(socket,gestore);
                 log.start();
             }
         } catch (IOException e) {

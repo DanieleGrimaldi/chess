@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.List;
 
-public class partita extends thread{
+public class partita extends Thread{
 
     Boolean piena =false;
 
@@ -27,9 +27,9 @@ public class partita extends thread{
         this.socket1 = socket1;
         try{
 
-            in1 = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            in1 = new BufferedReader(new InputStreamReader(socket1.getInputStream()));
 
-            out1 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())),true);
+            out1 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket1.getOutputStream())),true);
 
         } catch (IOException e) {
             // TODO Auto-generated catch block
@@ -45,9 +45,9 @@ public class partita extends thread{
         this.socket2 = socket2;
         try{
 
-            in2 = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            in2 = new BufferedReader(new InputStreamReader(socket2.getInputStream()));
 
-            out2 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())),true);
+            out2 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket2.getOutputStream())),true);
 
         } catch (IOException e) {
             // TODO Auto-generated catch block
