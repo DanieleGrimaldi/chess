@@ -62,7 +62,7 @@ public class partita extends Thread{
     @Override
     public void run(){
         boolean attiva=true;
-        Int turno=1;
+        int turno=1;
         while(!piena){}//aspetta che entrambi entrino
 
         while(attiva){
@@ -71,21 +71,35 @@ public class partita extends Thread{
 
             if(turno==1){
                 out1.println("tocca a te;");
-                String str = in1.readLine();
+                String str;
+                try {
+                    str = in1.readLine();
+                
                 if(str.toUpperCase().startsWith("FINE")){
                     attiva = false;
                 }
                 out2.println(str);
                 turno=2;
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             }
             if(turno==2){
                 out2.println("tocca a te;");
-                String str = in1.readLine();
+                String str;
+                try {
+                    str = in1.readLine();
+                
                 if(str.toUpperCase().startsWith("FINE")){
                     attiva = false;
                 }
                 out1.println(str);
                 turno=1;
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             }
         }
     }

@@ -37,18 +37,25 @@ public class utente extends Thread{
     public void run(){
         Boolean connesso = true;
         while(connesso){
-            String str = in.readLine();//non so se toglie i nulli 
+            String str;
+            try {
+                str = in.readLine();
+            
 
             if(str.toUpperCase().startsWith("CREA")){
                 gestore.crea(socket);
             }
             if(str.toUpperCase().startsWith("UNISCITI")){
                 String campi[] = str.split(";");
-                gestore.aggingiti(Integer.parseInt(campi[1]),socket);
+                gestore.unisciti(Integer.parseInt(campi[1]),socket);
             }
             if(str.toUpperCase().startsWith("DISCONNETTI")){
                 connesso = false;
             }
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }//non so se toglie i nulli 
 
         }
     }

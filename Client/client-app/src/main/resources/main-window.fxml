@@ -14,7 +14,7 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <children>
-      <Label text="Account: {account_name}" />
+      <Label fx:id="account_label" text="Account: {account_name}" />
       <Label text="Chess - Inizia a giocare!" textFill="#6b2c0f">
          <font>
             <Font name="Comfortaa SemiBold" size="30.0" />
@@ -52,23 +52,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </MFXButton>
-            <MFXTextField floatMode="ABOVE" layoutX="279.0" layoutY="33.0" promptText="#" />
-         </children>
-      </Pane>
-      <Pane prefHeight="37.0" prefWidth="760.0">
-         <children>
-            <Label layoutX="280.0" layoutY="7.0" text="© Chess creato da Daniele Grimali e Mirko Cerati.">
-               <font>
-                  <Font size="10.0" />
-               </font></Label>
-            <Label layoutX="361.0" layoutY="18.0" onMouseClicked="#srcLabelClicked" text="Source Code" textFill="#2600ff" underline="true">
-               <font>
-                  <Font size="10.0" />
-               </font>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </Label>
+            <MFXTextField fx:id="id_text" floatMode="ABOVE" layoutX="279.0" layoutY="33.0" promptText="#" />
          </children>
       </Pane>
    </children>

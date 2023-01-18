@@ -80,6 +80,8 @@ public abstract class ChessPiece
         Side thisChessSide = this.getSide();
         //boolean isOnline = ChessGame.getGame().isOnline();
 
+
+
        /* if (isOnline)
         {
             return ChessGame.getGame().getOnlineConnection().getChessSide().equals(side) && side.equals(thisChessSide);

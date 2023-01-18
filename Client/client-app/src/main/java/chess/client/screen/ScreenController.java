@@ -30,7 +30,7 @@ public class ScreenController {
 
         try {
             this.signinScene = new Scene(signinWindowLoader.load(), 320, 340);
-            this.signupScene = new Scene(signupWindowLoader.load(), 320, 370);
+            this.signupScene = new Scene(signupWindowLoader.load(), 320, 390);
             this.mainScene = new Scene(mainWindowLoader.load());
         } catch (IOException e) {
             e.printStackTrace();

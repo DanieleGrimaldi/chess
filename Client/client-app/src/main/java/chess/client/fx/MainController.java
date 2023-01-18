@@ -2,18 +2,24 @@ package chess.client.fx;
 
 import chess.client.screen.ScreenController;
 import chess.client.screen.ScreenScene;
+import io.github.palexdev.materialfx.controls.MFXTextField;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 
 import java.awt.*;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.net.URL;
 
 public class MainController {
 
     @FXML
-    private Label account_label;
+    private javafx.scene.control.Label account_label;
+
+    @FXML
+    private MFXTextField id_text;
+
+
 
     @FXML
     protected void srcLabelClicked() {

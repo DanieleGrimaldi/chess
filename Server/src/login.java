@@ -1,14 +1,17 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.List;
+import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 public class login extends Thread{
     List<String> utentiAttivi;
@@ -41,7 +44,10 @@ public class login extends Thread{
         
         while(!loggato){
 
-            String str = in.readLine();//non so se toglie i nulli 
+            String str;
+            try {
+                str = in.readLine();
+            
 
             if(str.toUpperCase().startsWith("LOGIN")){//login;nomeUtente;psw;
                 String campi[] = str.split(";");
@@ -69,28 +75,41 @@ public class login extends Thread{
 
                 //Apro il file degli utenti per verificare le credenziali
                 File myObj = new File("utenti.txt");
-                Scanner myReader = new Scanner(myObj);
-                while (myReader.hasNextLine() && trovato == false) {
-                  String nome = myReader.nextLine().split(";")[0];
-                  if(campi[1]=nome){
-                    trovato = true;
-                  }
+                try (Scanner myReader = new Scanner(myObj)) {
+                    while (myReader.hasNextLine() && trovato == false) {
+                      String nome = myReader.nextLine().split(";")[0];
+                      if(campi[1]==nome){
+                        trovato = true;
+                      }
+                    }
+                    myReader.close();
+                } catch (FileNotFoundException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
                 }
-                myReader.close();
                 if(!trovato){//se l'utente non è doppio lo creo 
-                    FileWriter file = new FileWriter("utenti.txt",true);
-                    file.write(campi[1]+";"+campi[2]);
-                    //Close the output stream
-                    file.close();
+                    try (FileWriter file = new FileWriter("utenti.txt",true)) {
+                        file.write(campi[1]+";"+campi[2]);
+                        //Close the output stream
+                        file.close();
+                    } catch (IOException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
                     out.println("registrazione corretta;");
                 }
             }
+            } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            }//non so se toglie i nulli 
+    
 
         }
         //sono finalmente loggato
         utente temp = new utente(socket, gestore);
         temp.start();
-
+        
     }
 
 }

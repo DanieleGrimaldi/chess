@@ -10,6 +10,8 @@ public class AppData {
         return instance;
     }
 
-    private String account;
+    private AppData() {}
+
+    public String account;
 
 }

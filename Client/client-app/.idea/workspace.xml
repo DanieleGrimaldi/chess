@@ -6,105 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="9ec38c6d-018e-4317-8504-377495401860" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/connection/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/ClientApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/fx/WindowApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/fx/WindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/fx/WindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/scene/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/screen/ScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chess/clientapp/scene/ScreenScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/screen/ScreenScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/ChessBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/ChessField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/ChessGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/ChessIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/FigureFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/GodmodeMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/Helper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/OptionButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/PromotionDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/Bishop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/Figure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/King.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/Knight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/Pawn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/Queen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/figure/Rook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/bits/BitReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/bits/BitWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/bits/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/bson/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/csv/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/ini/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/ini/Ini.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/ini/IniParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/ini/IniWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/json/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/nbt/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/xml/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/chess/io/yaml/ChessLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/ArrayTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/ByteArrayTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/ByteTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/CompoundTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/DoubleTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/EndTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/FloatTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/IntArrayTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/IntTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/ListTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/LongArrayTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/LongTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/MaxDepthReachedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/NBTUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/NonNullEntrySet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/NumberTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/ShortTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/StringTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/Tag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/TagFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/custom/CharTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/custom/ObjectTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/custom/ShortArrayTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/custom/StructTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/mca/Chunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/mca/CompressionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/mca/ExceptionFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/mca/MCAFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/mca/MCAUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/querz/nbt/mca/Section.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chess/clientapp/play-window.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chess/clientapp/signin-window.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chess/clientapp/signup-window.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/black_bishop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/black_king.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/black_knight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/black_pawn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/black_queen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/black_rook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/load.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/remove.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/reset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/save.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/swap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/white_bishop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/white_king.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/white_knight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/white_pawn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/white_queen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/white_rook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.bson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.chess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.nbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/connection/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/connection/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/data/AppData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/data/AppData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/fx/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/fx/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/fx/WindowApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/fx/WindowApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/fx/WindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/fx/SigninController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/game/piece/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/game/piece/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/client/screen/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/client/screen/ScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/main-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main-window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/signin-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/signin-window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/signup-window.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/signup-window.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/src/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/src/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/src/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/src/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Server/src/partita.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/src/partita.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,20 +41,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ItusyO9SBiSLMd6bmVPeGC0nPM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/mirkocerati/Documents/GitHub/5ainfo/Client/client-app/src/main/java/pl/bartlomiejstepien/chess",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mirkocerati/Documents/GitHub/5ainfo/Client/client-app/src/main/java/pl/bartlomiejstepien/chess&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/pl/bartlomiejstepien/chess" />
